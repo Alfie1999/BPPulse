@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BPAndPulseApi2.props" />
+</Project>

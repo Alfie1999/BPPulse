@@ -1,0 +1,140 @@
+Perfect — let’s build a **minimal ASP.NET Core Web API** so your Flutter `saveReading()` can send data to it.
+
+---
+
+## **Step 1 — Create the Project**
+
+In your terminal or PowerShell:
+
+```powershell
+dotnet new webapi -n HealthReadingsApi
+cd HealthReadingsApi
+```
+
+---
+
+## **Step 2 — Create a Model**
+
+Inside `Models/Reading.cs`:
+
+```csharp
+namespace HealthReadingsApi.Models
+{
+    public class Reading
+    {
+        public int Systolic { get; set; }
+        public int Diastolic { get; set; }
+        public int Pulse { get; set; }
+    }
+}
+```
+
+---
+
+## **Step 3 — Create a Controller**
+
+Inside `Controllers/ReadingsController.cs`:
+
+```csharp
+using Microsoft.AspNetCore.Mvc;
+using HealthReadingsApi.Models;
+
+namespace HealthReadingsApi.Controllers
+{
+    [ApiController]
+    [Route("[controller]")]
+    public class ReadingsController : ControllerBase
+    {
+        [HttpPost("saveReading")]
+        public IActionResult SaveReading([FromBody] Reading reading)
+        {
+            // Debug: print to console
+            Console.WriteLine($"Received: Systolic={reading.Systolic}, Diastolic={reading.Diastolic}, Pulse={reading.Pulse}");
+
+            // Here you could save to a database
+            // For now, just return success
+            return Ok(new { message = "Reading saved successfully" });
+        }
+    }
+}
+```
+
+---
+
+## **Step 4 — Enable CORS (so Flutter can call it)**
+
+Open `Program.cs` and add:
+
+```csharp
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+// Add CORS policy
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFlutter", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
+var app = builder.Build();
+
+app.UseSwagger();
+app.UseSwaggerUI();
+
+app.UseCors("AllowFlutter");
+
+app.UseAuthorization();
+app.MapControllers();
+app.Run();
+```
+
+---
+
+## **Step 5 — Run the API**
+
+```powershell
+dotnet run
+```
+
+You’ll see something like:
+
+```
+Now listening on: https://localhost:7130
+```
+
+The endpoint for your Flutter app will be:
+
+```
+https://localhost:7130/readings/saveReading
+```
+
+---
+
+## **Step 6 — Update Flutter**
+
+In your `ApiService`:
+
+```dart
+final url = Uri.parse('$baseUrl/readings/saveReading');
+```
+
+Set `baseUrl` in Flutter to:
+
+```dart
+final api = ApiService(baseUrl: "https://localhost:7130");
+```
+
+---
+
+✅ Now when you run your Flutter app and call `saveReading()`, the API will log the values in the console, and you’ll see `"Reading saved successfully"` in the Flutter debug output.
+
+---
+
+If you want, I can **extend this API with EF Core + SQLite** so it actually stores readings in a database for later retrieval. That way you can also make a "History" page in Flutter. Would you like me to add that?

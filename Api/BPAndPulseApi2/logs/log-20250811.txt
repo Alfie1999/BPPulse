@@ -1,0 +1,420 @@
+2025-08-11 20:34:35.891 +01:00 [INF] Starting web host
+2025-08-11 20:34:36.283 +01:00 [INF] Now listening on: http://localhost:5194
+2025-08-11 20:34:36.574 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-11 20:34:36.577 +01:00 [INF] Hosting environment: Development
+2025-08-11 20:34:36.579 +01:00 [INF] Content root path: F:\BPPulse\Api\BPAndPulseApi2
+2025-08-11 20:34:39.449 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/swagger/index.html - null null
+2025-08-11 20:34:40.501 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/swagger/index.html - 200 null text/html;charset=utf-8 1120.5094ms
+2025-08-11 20:34:40.595 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-11 20:34:40.604 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/_vs/browserLink - null null
+2025-08-11 20:34:40.668 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 76.5286ms
+2025-08-11 20:34:40.776 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/_vs/browserLink - 200 null text/javascript; charset=UTF-8 172.3938ms
+2025-08-11 20:34:40.902 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/swagger/v1/swagger.json - null null
+2025-08-11 20:34:41.348 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 445.7739ms
+2025-08-11 20:41:38.843 +01:00 [INF] Starting web host
+2025-08-11 20:41:39.414 +01:00 [INF] Now listening on: http://localhost:5194
+2025-08-11 20:41:39.588 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-11 20:41:39.591 +01:00 [INF] Hosting environment: Development
+2025-08-11 20:41:39.592 +01:00 [INF] Content root path: F:\BPPulse\Api\BPAndPulseApi2
+2025-08-11 20:41:42.210 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/swagger/index.html - null null
+2025-08-11 20:41:43.056 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/swagger/index.html - 200 null text/html;charset=utf-8 877.5605ms
+2025-08-11 20:41:43.219 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-11 20:41:43.232 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/_vs/browserLink - null null
+2025-08-11 20:41:43.336 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 125.7589ms
+2025-08-11 20:41:43.466 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/_vs/browserLink - 200 null text/javascript; charset=UTF-8 234.26ms
+2025-08-11 20:41:43.605 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/swagger/v1/swagger.json - null null
+2025-08-11 20:41:43.997 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 392.4566ms
+2025-08-11 20:41:59.901 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5194/Readings/saveReading - application/json 53
+2025-08-11 20:41:59.912 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-08-11 20:41:59.920 +01:00 [INF] Executing endpoint 'HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2)'
+2025-08-11 20:41:59.997 +01:00 [INF] Route matched with {action = "SaveReading", controller = "Readings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveReading(HealthReadingsApi.Models.CreateReadingDto) on controller HealthReadingsApi.Controllers.ReadingsController (BPAndPulseApi2).
+2025-08-11 20:42:02.520 +01:00 [INF] Executed DbCommand (87ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Readings] ([Diastolic], [Pulse], [Systolic])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2025-08-11 20:42:09.632 +01:00 [INF] saving reading
+2025-08-11 20:42:14.429 +01:00 [INF] Executing CreatedAtActionResult, writing value of type 'HealthReadingsApi.Models.Reading'.
+2025-08-11 20:42:14.478 +01:00 [INF] Executed action HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2) in 14469.7449ms
+2025-08-11 20:42:14.484 +01:00 [INF] Executed endpoint 'HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2)'
+2025-08-11 20:42:14.503 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5194/Readings/saveReading - 201 null application/json; charset=utf-8 14602.4009ms
+2025-08-11 21:18:30.211 +01:00 [INF] Starting web host
+2025-08-11 21:18:30.681 +01:00 [INF] Now listening on: http://localhost:5194
+2025-08-11 21:18:30.900 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-11 21:18:30.902 +01:00 [INF] Hosting environment: Development
+2025-08-11 21:18:30.904 +01:00 [INF] Content root path: F:\BPPulse\Api\BPAndPulseApi2
+2025-08-11 21:18:33.945 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/swagger/index.html - null null
+2025-08-11 21:18:34.834 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/swagger/index.html - 200 null text/html;charset=utf-8 921.6507ms
+2025-08-11 21:18:34.952 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-11 21:18:34.952 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/_vs/browserLink - null null
+2025-08-11 21:18:35.090 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 139.0892ms
+2025-08-11 21:18:35.305 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/_vs/browserLink - 200 null text/javascript; charset=UTF-8 354.1069ms
+2025-08-11 21:18:35.423 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/swagger/v1/swagger.json - null null
+2025-08-11 21:18:35.847 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 423.986ms
+2025-08-11 21:18:50.962 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5194/Readings/saveReading - application/json 50
+2025-08-11 21:18:50.983 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-08-11 21:18:50.987 +01:00 [INF] CORS policy execution failed.
+2025-08-11 21:18:50.989 +01:00 [INF] Request origin http://localhost:5194 does not have permission to access the resource.
+2025-08-11 21:18:50.998 +01:00 [INF] Executing endpoint 'HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2)'
+2025-08-11 21:18:51.045 +01:00 [INF] Route matched with {action = "SaveReading", controller = "Readings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveReading(HealthReadingsApi.Models.CreateReadingDto) on controller HealthReadingsApi.Controllers.ReadingsController (BPAndPulseApi2).
+2025-08-11 21:18:53.545 +01:00 [INF] Executed DbCommand (163ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Readings] ([Diastolic], [Pulse], [Systolic])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2025-08-11 21:18:59.272 +01:00 [INF] saving reading
+2025-08-11 21:18:59.287 +01:00 [INF] Executing CreatedAtActionResult, writing value of type 'HealthReadingsApi.Models.Reading'.
+2025-08-11 21:18:59.324 +01:00 [INF] Executed action HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2) in 8272.556ms
+2025-08-11 21:18:59.330 +01:00 [INF] Executed endpoint 'HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2)'
+2025-08-11 21:18:59.356 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5194/Readings/saveReading - 201 null application/json; charset=utf-8 8393.8308ms
+2025-08-11 22:20:22.288 +01:00 [INF] Starting web host
+2025-08-11 22:20:25.241 +01:00 [INF] Now listening on: http://localhost:5194
+2025-08-11 22:20:25.842 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-11 22:20:25.873 +01:00 [INF] Hosting environment: Development
+2025-08-11 22:20:25.876 +01:00 [INF] Content root path: F:\BPPulse\Api\BPAndPulseApi2
+2025-08-11 22:20:33.181 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/swagger/index.html - null null
+2025-08-11 22:20:35.458 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/swagger/index.html - 200 null text/html;charset=utf-8 2338.9241ms
+2025-08-11 22:20:35.846 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/_vs/browserLink - null null
+2025-08-11 22:20:36.321 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-11 22:20:36.373 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 52.5114ms
+2025-08-11 22:20:36.650 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/_vs/browserLink - 200 null text/javascript; charset=UTF-8 806.5538ms
+2025-08-11 22:20:37.185 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/swagger/v1/swagger.json - null null
+2025-08-11 22:20:37.721 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 535.8946ms
+2025-08-11 22:20:57.536 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5194/Readings/saveReading - application/json 51
+2025-08-11 22:20:57.566 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-08-11 22:20:57.573 +01:00 [INF] CORS policy execution failed.
+2025-08-11 22:20:57.576 +01:00 [INF] Request origin http://localhost:5194 does not have permission to access the resource.
+2025-08-11 22:20:57.590 +01:00 [INF] Executing endpoint 'HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2)'
+2025-08-11 22:20:57.707 +01:00 [INF] Route matched with {action = "SaveReading", controller = "Readings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveReading(HealthReadingsApi.Models.CreateReadingDto) on controller HealthReadingsApi.Controllers.ReadingsController (BPAndPulseApi2).
+2025-08-11 22:21:06.207 +01:00 [INF] Executed DbCommand (198ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Readings] ([Diastolic], [Pulse], [Systolic])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2025-08-11 22:21:20.429 +01:00 [INF] saving reading
+2025-08-11 22:21:20.824 +01:00 [INF] Executing CreatedAtActionResult, writing value of type 'HealthReadingsApi.Models.Reading'.
+2025-08-11 22:21:21.042 +01:00 [INF] Executed action HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2) in 23307.3837ms
+2025-08-11 22:21:21.468 +01:00 [INF] Executed endpoint 'HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2)'
+2025-08-11 22:21:21.767 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5194/Readings/saveReading - 201 null application/json; charset=utf-8 24231.0986ms
+2025-08-11 22:24:41.270 +01:00 [INF] Starting web host
+2025-08-11 22:24:42.455 +01:00 [INF] Now listening on: http://localhost:5194
+2025-08-11 22:24:43.174 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-11 22:24:43.256 +01:00 [INF] Hosting environment: Development
+2025-08-11 22:24:43.292 +01:00 [INF] Content root path: F:\BPPulse\Api\BPAndPulseApi2
+2025-08-11 22:24:49.478 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/swagger/index.html - null null
+2025-08-11 22:24:51.458 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/swagger/index.html - 200 null text/html;charset=utf-8 2004.9745ms
+2025-08-11 22:24:51.563 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/_vs/browserLink - null null
+2025-08-11 22:24:51.570 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-11 22:24:51.682 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 121.2472ms
+2025-08-11 22:24:51.858 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/_vs/browserLink - 200 null text/javascript; charset=UTF-8 296.372ms
+2025-08-11 22:24:51.985 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/swagger/v1/swagger.json - null null
+2025-08-11 22:24:52.985 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1000.3615ms
+2025-08-11 22:29:31.821 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5194/api/SaveReading - null null
+2025-08-11 22:29:31.939 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-08-11 22:29:31.946 +01:00 [INF] CORS policy execution failed.
+2025-08-11 22:29:31.950 +01:00 [INF] Request origin http://localhost:59516 does not have permission to access the resource.
+2025-08-11 22:29:31.955 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5194/api/SaveReading - 204 null null 134.0881ms
+2025-08-11 22:33:24.452 +01:00 [INF] Starting web host
+2025-08-11 22:33:28.880 +01:00 [INF] Now listening on: http://localhost:5194
+2025-08-11 22:33:29.888 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-11 22:33:29.973 +01:00 [INF] Hosting environment: Development
+2025-08-11 22:33:29.980 +01:00 [INF] Content root path: F:\BPPulse\Api\BPAndPulseApi2
+2025-08-11 22:33:33.862 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/swagger/index.html - null null
+2025-08-11 22:33:35.181 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/swagger/index.html - 200 null text/html;charset=utf-8 1345.8432ms
+2025-08-11 22:33:35.337 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-11 22:33:35.359 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/_vs/browserLink - null null
+2025-08-11 22:33:35.759 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 433.2194ms
+2025-08-11 22:33:35.878 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/_vs/browserLink - 200 null text/javascript; charset=UTF-8 519.6978ms
+2025-08-11 22:33:36.006 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/swagger/v1/swagger.json - null null
+2025-08-11 22:33:36.444 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 437.8425ms
+2025-08-11 22:34:25.872 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5194/api/SaveReading - null null
+2025-08-11 22:34:26.131 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-08-11 22:34:26.148 +01:00 [INF] CORS policy execution successful.
+2025-08-11 22:34:26.156 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5194/api/SaveReading - 204 null null 284.0929ms
+2025-08-11 22:34:26.183 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5194/api/SaveReading - application/json; charset=utf-8 42
+2025-08-11 22:34:26.409 +01:00 [INF] CORS policy execution successful.
+2025-08-11 22:34:26.422 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5194/api/SaveReading - 404 0 null 238.7265ms
+2025-08-11 22:34:26.442 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5194/api/SaveReading, Response status code: 404
+2025-08-11 22:38:45.567 +01:00 [INF] Starting web host
+2025-08-11 22:38:46.224 +01:00 [INF] Now listening on: http://localhost:5194
+2025-08-11 22:38:46.494 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-11 22:38:46.497 +01:00 [INF] Hosting environment: Development
+2025-08-11 22:38:46.500 +01:00 [INF] Content root path: F:\BPPulse\Api\BPAndPulseApi2
+2025-08-11 22:38:51.451 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/swagger/index.html - null null
+2025-08-11 22:38:53.875 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/swagger/index.html - 200 null text/html;charset=utf-8 2456.0482ms
+2025-08-11 22:38:53.921 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-11 22:38:54.114 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/_vs/browserLink - null null
+2025-08-11 22:38:55.137 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 1217.2382ms
+2025-08-11 22:38:55.280 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/_vs/browserLink - 200 null text/javascript; charset=UTF-8 1164.9889ms
+2025-08-11 22:38:55.926 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/swagger/v1/swagger.json - null null
+2025-08-11 22:38:56.225 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 299.3172ms
+2025-08-11 22:39:22.711 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5194/api/SaveReading - null null
+2025-08-11 22:39:23.244 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-08-11 22:39:23.641 +01:00 [INF] CORS policy execution successful.
+2025-08-11 22:39:23.867 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5194/api/SaveReading - 204 null null 1155.567ms
+2025-08-11 22:39:24.459 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5194/api/SaveReading - application/json; charset=utf-8 42
+2025-08-11 22:39:24.469 +01:00 [INF] CORS policy execution successful.
+2025-08-11 22:39:24.481 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5194/api/SaveReading - 404 0 null 22.0502ms
+2025-08-11 22:39:24.494 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST http://localhost:5194/api/SaveReading, Response status code: 404
+2025-08-11 22:50:06.718 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5194/api/readings - null null
+2025-08-11 22:50:06.759 +01:00 [INF] CORS policy execution failed.
+2025-08-11 22:50:06.764 +01:00 [INF] Request origin http://localhost:60487 does not have permission to access the resource.
+2025-08-11 22:50:06.777 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5194/api/readings - 204 null null 59.0571ms
+2025-08-11 22:51:15.135 +01:00 [INF] Starting web host
+2025-08-11 22:51:17.296 +01:00 [INF] Now listening on: http://localhost:5194
+2025-08-11 22:51:17.730 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-11 22:51:17.743 +01:00 [INF] Hosting environment: Development
+2025-08-11 22:51:17.747 +01:00 [INF] Content root path: F:\BPPulse\Api\BPAndPulseApi2
+2025-08-11 22:51:22.389 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/swagger/index.html - null null
+2025-08-11 22:51:24.611 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/swagger/index.html - 200 null text/html;charset=utf-8 2222.365ms
+2025-08-11 22:51:24.677 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-11 22:51:24.679 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/_vs/browserLink - null null
+2025-08-11 22:51:25.021 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 345.7118ms
+2025-08-11 22:51:25.311 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/_vs/browserLink - 200 null text/javascript; charset=UTF-8 631.3815ms
+2025-08-11 22:51:25.452 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/swagger/v1/swagger.json - null null
+2025-08-11 22:51:26.121 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 668.5133ms
+2025-08-11 22:51:31.682 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5194/api/readings - null null
+2025-08-11 22:51:31.919 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-08-11 22:51:31.948 +01:00 [INF] CORS policy execution successful.
+2025-08-11 22:51:31.958 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5194/api/readings - 204 null null 275.1863ms
+2025-08-11 22:51:31.986 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5194/api/readings - application/json; charset=utf-8 42
+2025-08-11 22:51:32.004 +01:00 [INF] CORS policy execution successful.
+2025-08-11 22:51:32.026 +01:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-08-11 22:51:32.032 +01:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-08-11 22:51:32.036 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5194/api/readings - 405 0 null 50.8351ms
+2025-08-11 22:57:42.980 +01:00 [INF] Starting web host
+2025-08-11 22:57:44.064 +01:00 [INF] Now listening on: http://localhost:5194
+2025-08-11 22:57:44.415 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-11 22:57:44.487 +01:00 [INF] Hosting environment: Development
+2025-08-11 22:57:44.497 +01:00 [INF] Content root path: F:\BPPulse\Api\BPAndPulseApi2
+2025-08-11 22:57:47.758 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/swagger/index.html - null null
+2025-08-11 22:57:49.017 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/swagger/index.html - 200 null text/html;charset=utf-8 1280.5646ms
+2025-08-11 22:57:49.134 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/_vs/browserLink - null null
+2025-08-11 22:57:49.135 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-11 22:57:49.287 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 154.9902ms
+2025-08-11 22:57:49.616 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/_vs/browserLink - 200 null text/javascript; charset=UTF-8 484.0081ms
+2025-08-11 22:57:49.738 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/swagger/v1/swagger.json - null null
+2025-08-11 22:57:50.147 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 408.7853ms
+2025-08-11 22:58:12.552 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5194/api/readings - null null
+2025-08-11 22:58:12.571 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-08-11 22:58:12.575 +01:00 [INF] CORS policy execution successful.
+2025-08-11 22:58:12.582 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5194/api/readings - 204 null null 29.8897ms
+2025-08-11 22:58:12.595 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5194/api/readings - application/json; charset=utf-8 42
+2025-08-11 22:58:12.602 +01:00 [INF] CORS policy execution successful.
+2025-08-11 22:58:12.614 +01:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-08-11 22:58:12.618 +01:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-08-11 22:58:12.626 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5194/api/readings - 405 0 null 30.5177ms
+2025-08-11 22:58:58.007 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/api//readings/SaveReading - null null
+2025-08-11 22:58:58.027 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/api//readings/SaveReading - 404 0 null 19.7218ms
+2025-08-11 22:58:58.139 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5194/api//readings/SaveReading, Response status code: 404
+2025-08-11 22:59:07.702 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/api/readings/SaveReading - null null
+2025-08-11 22:59:07.724 +01:00 [INF] Executing endpoint 'HealthReadingsApi.Controllers.ReadingsController.GetReadingById (BPAndPulseApi2)'
+2025-08-11 22:59:07.848 +01:00 [INF] Route matched with {action = "GetReadingById", controller = "Readings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetReadingById(Int32) on controller HealthReadingsApi.Controllers.ReadingsController (BPAndPulseApi2).
+2025-08-11 22:59:08.860 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-08-11 22:59:08.934 +01:00 [INF] Executed action HealthReadingsApi.Controllers.ReadingsController.GetReadingById (BPAndPulseApi2) in 1045.1363ms
+2025-08-11 22:59:08.968 +01:00 [INF] Executed endpoint 'HealthReadingsApi.Controllers.ReadingsController.GetReadingById (BPAndPulseApi2)'
+2025-08-11 22:59:08.978 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/api/readings/SaveReading - 400 null application/problem+json; charset=utf-8 1276.4865ms
+2025-08-11 22:59:09.004 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/favicon.ico - null null
+2025-08-11 22:59:09.018 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/favicon.ico - 404 0 null 14.559ms
+2025-08-11 22:59:09.031 +01:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5194/favicon.ico, Response status code: 404
+2025-08-11 23:00:39.229 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5194/api/readings/SaveReading - null 0
+2025-08-11 23:00:39.252 +01:00 [INF] Executing endpoint 'HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2)'
+2025-08-11 23:00:39.286 +01:00 [INF] Route matched with {action = "SaveReading", controller = "Readings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveReading(HealthReadingsApi.Models.CreateReadingDto) on controller HealthReadingsApi.Controllers.ReadingsController (BPAndPulseApi2).
+2025-08-11 23:00:39.336 +01:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-08-11 23:00:39.395 +01:00 [INF] Executed action HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2) in 102.5805ms
+2025-08-11 23:00:39.407 +01:00 [INF] Executed endpoint 'HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2)'
+2025-08-11 23:00:39.411 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5194/api/readings/SaveReading - 415 null application/problem+json; charset=utf-8 182.0363ms
+2025-08-11 23:03:52.222 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5194/api/readings/SaveReading - application/json 65
+2025-08-11 23:03:52.231 +01:00 [INF] Executing endpoint 'HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2)'
+2025-08-11 23:03:52.234 +01:00 [INF] Route matched with {action = "SaveReading", controller = "Readings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveReading(HealthReadingsApi.Models.CreateReadingDto) on controller HealthReadingsApi.Controllers.ReadingsController (BPAndPulseApi2).
+2025-08-11 23:03:59.204 +01:00 [INF] Executed DbCommand (504ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Readings] ([Diastolic], [Pulse], [Systolic])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2025-08-11 23:04:07.756 +01:00 [INF] saving reading
+2025-08-11 23:04:07.768 +01:00 [INF] Executing CreatedAtActionResult, writing value of type 'HealthReadingsApi.Models.Reading'.
+2025-08-11 23:04:07.910 +01:00 [INF] Executed action HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2) in 15666.2774ms
+2025-08-11 23:04:07.919 +01:00 [INF] Executed endpoint 'HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2)'
+2025-08-11 23:04:07.945 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5194/api/readings/SaveReading - 201 null application/json; charset=utf-8 15721.0201ms
+2025-08-11 23:05:35.556 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5194/api/readings - null null
+2025-08-11 23:05:35.594 +01:00 [INF] CORS policy execution successful.
+2025-08-11 23:05:35.597 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5194/api/readings - 204 null null 40.6887ms
+2025-08-11 23:05:35.696 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5194/api/readings - application/json; charset=utf-8 42
+2025-08-11 23:05:35.711 +01:00 [INF] CORS policy execution successful.
+2025-08-11 23:05:35.714 +01:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-08-11 23:05:35.742 +01:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-08-11 23:05:35.763 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5194/api/readings - 405 0 null 66.7676ms
+2025-08-11 23:08:28.059 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-11 23:08:28.137 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 77.3087ms
+2025-08-11 23:09:42.306 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5194/api/readings - null null
+2025-08-11 23:09:42.391 +01:00 [INF] CORS policy execution successful.
+2025-08-11 23:09:42.401 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5194/api/readings - 204 null null 95.2285ms
+2025-08-11 23:09:42.519 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5194/api/readings - application/json; charset=utf-8 42
+2025-08-11 23:09:42.526 +01:00 [INF] CORS policy execution successful.
+2025-08-11 23:09:42.529 +01:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-08-11 23:09:42.539 +01:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-08-11 23:09:42.546 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5194/api/readings - 405 0 null 26.4771ms
+2025-08-11 23:09:55.158 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5194/api/readings - null null
+2025-08-11 23:09:55.172 +01:00 [INF] CORS policy execution successful.
+2025-08-11 23:09:55.176 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5194/api/readings - 204 null null 18.4323ms
+2025-08-11 23:09:55.201 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5194/api/readings - application/json; charset=utf-8 42
+2025-08-11 23:09:55.208 +01:00 [INF] CORS policy execution successful.
+2025-08-11 23:09:55.210 +01:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-08-11 23:09:55.220 +01:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-08-11 23:09:55.224 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5194/api/readings - 405 0 null 22.7308ms
+2025-08-11 23:10:37.378 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5194/api/readings - null null
+2025-08-11 23:10:37.717 +01:00 [INF] CORS policy execution successful.
+2025-08-11 23:10:37.724 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5194/api/readings - 204 null null 345.733ms
+2025-08-11 23:10:37.751 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5194/api/readings - application/json; charset=utf-8 42
+2025-08-11 23:10:37.761 +01:00 [INF] CORS policy execution successful.
+2025-08-11 23:10:37.764 +01:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-08-11 23:10:37.768 +01:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-08-11 23:10:37.772 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5194/api/readings - 405 0 null 21.2001ms
+2025-08-11 23:13:39.249 +01:00 [INF] Starting web host
+2025-08-11 23:13:40.216 +01:00 [INF] Now listening on: http://localhost:5194
+2025-08-11 23:13:40.675 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-11 23:13:40.689 +01:00 [INF] Hosting environment: Development
+2025-08-11 23:13:40.691 +01:00 [INF] Content root path: F:\BPPulse\Api\BPAndPulseApi2
+2025-08-11 23:13:45.433 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/swagger/index.html - null null
+2025-08-11 23:13:48.361 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/swagger/index.html - 200 null text/html;charset=utf-8 2951.2357ms
+2025-08-11 23:13:48.487 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-11 23:13:48.487 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/_vs/browserLink - null null
+2025-08-11 23:13:48.524 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 49.7167ms
+2025-08-11 23:13:48.821 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/_vs/browserLink - 200 null text/javascript; charset=UTF-8 334.2526ms
+2025-08-11 23:13:48.953 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/swagger/v1/swagger.json - null null
+2025-08-11 23:13:49.496 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 543.0382ms
+2025-08-11 23:14:51.457 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5194/api/readings/SaveReading - null null
+2025-08-11 23:14:51.513 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-08-11 23:14:51.531 +01:00 [INF] CORS policy execution successful.
+2025-08-11 23:14:51.596 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5194/api/readings/SaveReading - 204 null null 138.8744ms
+2025-08-11 23:14:51.630 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5194/api/readings/SaveReading - application/json; charset=utf-8 42
+2025-08-11 23:14:51.647 +01:00 [INF] CORS policy execution successful.
+2025-08-11 23:14:51.659 +01:00 [INF] Executing endpoint 'HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2)'
+2025-08-11 23:14:51.804 +01:00 [INF] Route matched with {action = "SaveReading", controller = "Readings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveReading(HealthReadingsApi.Models.CreateReadingDto) on controller HealthReadingsApi.Controllers.ReadingsController (BPAndPulseApi2).
+2025-08-11 23:14:58.861 +01:00 [INF] Executed DbCommand (288ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Readings] ([Diastolic], [Pulse], [Systolic])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2025-08-11 23:15:14.782 +01:00 [INF] saving reading
+2025-08-11 23:15:14.829 +01:00 [INF] Executing CreatedAtActionResult, writing value of type 'HealthReadingsApi.Models.Reading'.
+2025-08-11 23:15:14.979 +01:00 [INF] Executed action HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2) in 23144.0902ms
+2025-08-11 23:15:15.079 +01:00 [INF] Executed endpoint 'HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2)'
+2025-08-11 23:15:15.139 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5194/api/readings/SaveReading - 201 null application/json; charset=utf-8 23506.7614ms
+2025-08-11 23:21:28.255 +01:00 [INF] Starting web host
+2025-08-11 23:21:29.023 +01:00 [INF] Now listening on: http://localhost:5194
+2025-08-11 23:21:29.399 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-11 23:21:29.417 +01:00 [INF] Hosting environment: Development
+2025-08-11 23:21:29.421 +01:00 [INF] Content root path: F:\BPPulse\Api\BPAndPulseApi2
+2025-08-11 23:21:33.773 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/swagger/index.html - null null
+2025-08-11 23:21:35.943 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/swagger/index.html - 200 null text/html;charset=utf-8 2191.5938ms
+2025-08-11 23:21:36.090 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-11 23:21:36.090 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/_vs/browserLink - null null
+2025-08-11 23:21:36.141 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 52.4962ms
+2025-08-11 23:21:36.296 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/_vs/browserLink - 200 null text/javascript; charset=UTF-8 206.1837ms
+2025-08-11 23:21:36.455 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/swagger/v1/swagger.json - null null
+2025-08-11 23:21:37.266 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 811.1174ms
+2025-08-11 23:21:39.846 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5194/api/readings/SaveReading - null null
+2025-08-11 23:21:40.035 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-08-11 23:21:40.206 +01:00 [INF] CORS policy execution successful.
+2025-08-11 23:21:40.242 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5194/api/readings/SaveReading - 204 null null 396.1381ms
+2025-08-11 23:21:40.350 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5194/api/readings/SaveReading - application/json; charset=utf-8 42
+2025-08-11 23:21:40.368 +01:00 [INF] CORS policy execution successful.
+2025-08-11 23:21:40.426 +01:00 [INF] Executing endpoint 'HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2)'
+2025-08-11 23:21:40.606 +01:00 [INF] Route matched with {action = "SaveReading", controller = "Readings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveReading(HealthReadingsApi.Models.CreateReadingDto) on controller HealthReadingsApi.Controllers.ReadingsController (BPAndPulseApi2).
+2025-08-11 23:21:47.262 +01:00 [INF] Executed DbCommand (211ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Readings] ([Diastolic], [Pulse], [Systolic])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2025-08-11 23:21:56.977 +01:00 [INF] saving reading
+2025-08-11 23:22:01.768 +01:00 [INF] Executing CreatedAtActionResult, writing value of type 'HealthReadingsApi.Models.Reading'.
+2025-08-11 23:33:28.859 +01:00 [INF] Starting web host
+2025-08-11 23:33:29.825 +01:00 [INF] Now listening on: http://localhost:5194
+2025-08-11 23:33:30.376 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-11 23:33:30.383 +01:00 [INF] Hosting environment: Development
+2025-08-11 23:33:30.390 +01:00 [INF] Content root path: F:\BPPulse\Api\BPAndPulseApi2
+2025-08-11 23:33:37.856 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/swagger/index.html - null null
+2025-08-11 23:33:39.947 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/swagger/index.html - 200 null text/html;charset=utf-8 2191.9727ms
+2025-08-11 23:33:40.542 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/_vs/browserLink - null null
+2025-08-11 23:33:40.602 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-11 23:33:40.619 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 17.2496ms
+2025-08-11 23:33:40.728 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/_vs/browserLink - 200 null text/javascript; charset=UTF-8 187.3811ms
+2025-08-11 23:33:41.033 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/swagger/v1/swagger.json - null null
+2025-08-11 23:33:41.733 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 699.314ms
+2025-08-11 23:34:35.146 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5194/api/readings/SaveReading - null null
+2025-08-11 23:34:35.246 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-08-11 23:34:35.727 +01:00 [INF] CORS policy execution successful.
+2025-08-11 23:34:35.880 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5194/api/readings/SaveReading - 204 null null 733.284ms
+2025-08-11 23:34:36.563 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5194/api/readings/SaveReading - application/json; charset=utf-8 42
+2025-08-11 23:34:36.632 +01:00 [INF] CORS policy execution successful.
+2025-08-11 23:34:36.687 +01:00 [INF] Executing endpoint 'HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2)'
+2025-08-11 23:34:36.982 +01:00 [INF] Route matched with {action = "SaveReading", controller = "Readings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveReading(HealthReadingsApi.Models.CreateReadingDto) on controller HealthReadingsApi.Controllers.ReadingsController (BPAndPulseApi2).
+2025-08-11 23:34:50.881 +01:00 [INF] Executed DbCommand (342ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Readings] ([Diastolic], [Pulse], [Systolic])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2025-08-11 23:34:57.409 +01:00 [INF] saving reading
+2025-08-11 23:34:57.528 +01:00 [INF] Executing CreatedAtActionResult, writing value of type 'HealthReadingsApi.Models.Reading'.
+2025-08-11 23:34:57.828 +01:00 [INF] Executed action HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2) in 20803.4798ms
+2025-08-11 23:34:57.928 +01:00 [INF] Executed endpoint 'HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2)'
+2025-08-11 23:34:58.010 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5194/api/readings/SaveReading - 201 null application/json; charset=utf-8 21445.3878ms
+2025-08-11 23:49:34.025 +01:00 [INF] Starting web host
+2025-08-11 23:49:34.801 +01:00 [INF] Now listening on: http://localhost:5194
+2025-08-11 23:49:35.199 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-11 23:49:35.206 +01:00 [INF] Hosting environment: Development
+2025-08-11 23:49:35.209 +01:00 [INF] Content root path: F:\BPPulse\Api\BPAndPulseApi2
+2025-08-11 23:49:38.889 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/swagger/index.html - null null
+2025-08-11 23:49:40.045 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/swagger/index.html - 200 null text/html;charset=utf-8 1178.4337ms
+2025-08-11 23:49:40.191 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-11 23:49:40.210 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/_vs/browserLink - null null
+2025-08-11 23:49:40.267 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 77.839ms
+2025-08-11 23:49:40.466 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/_vs/browserLink - 200 null text/javascript; charset=UTF-8 256.3005ms
+2025-08-11 23:49:40.954 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:5194/swagger/v1/swagger.json - null null
+2025-08-11 23:49:41.205 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:5194/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 250.397ms
+2025-08-11 23:50:33.440 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5194/api/readings/SaveReading - null null
+2025-08-11 23:50:33.479 +01:00 [WRN] Failed to determine the https port for redirect.
+2025-08-11 23:50:33.487 +01:00 [INF] CORS policy execution successful.
+2025-08-11 23:50:33.496 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5194/api/readings/SaveReading - 204 null null 56.4106ms
+2025-08-11 23:50:33.604 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5194/api/readings/SaveReading - application/json; charset=utf-8 42
+2025-08-11 23:50:33.629 +01:00 [INF] CORS policy execution successful.
+2025-08-11 23:50:33.644 +01:00 [INF] Executing endpoint 'HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2)'
+2025-08-11 23:50:33.754 +01:00 [INF] Route matched with {action = "SaveReading", controller = "Readings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveReading(HealthReadingsApi.Models.CreateReadingDto) on controller HealthReadingsApi.Controllers.ReadingsController (BPAndPulseApi2).
+2025-08-11 23:50:42.698 +01:00 [INF] Executed DbCommand (693ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Readings] ([Diastolic], [Pulse], [Systolic])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2025-08-11 23:50:53.909 +01:00 [INF] saving reading
+2025-08-11 23:50:54.035 +01:00 [INF] Executing CreatedAtActionResult, writing value of type 'HealthReadingsApi.Models.Reading'.
+2025-08-11 23:50:54.142 +01:00 [INF] Executed action HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2) in 20346.3481ms
+2025-08-11 23:50:54.540 +01:00 [INF] Executed endpoint 'HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2)'
+2025-08-11 23:50:54.578 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5194/api/readings/SaveReading - 201 null application/json; charset=utf-8 20972.1584ms
+2025-08-11 23:54:20.054 +01:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:5194/api/readings/SaveReading - null null
+2025-08-11 23:54:20.088 +01:00 [INF] CORS policy execution successful.
+2025-08-11 23:54:20.091 +01:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:5194/api/readings/SaveReading - 204 null null 36.886ms
+2025-08-11 23:54:20.102 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:5194/api/readings/SaveReading - application/json; charset=utf-8 42
+2025-08-11 23:54:20.110 +01:00 [INF] CORS policy execution successful.
+2025-08-11 23:54:20.113 +01:00 [INF] Executing endpoint 'HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2)'
+2025-08-11 23:54:20.117 +01:00 [INF] Route matched with {action = "SaveReading", controller = "Readings"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveReading(HealthReadingsApi.Models.CreateReadingDto) on controller HealthReadingsApi.Controllers.ReadingsController (BPAndPulseApi2).
+2025-08-11 23:54:20.439 +01:00 [INF] Executed DbCommand (17ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Readings] ([Diastolic], [Pulse], [Systolic])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2025-08-11 23:54:23.999 +01:00 [INF] saving reading
+2025-08-11 23:54:24.003 +01:00 [INF] Executing CreatedAtActionResult, writing value of type 'HealthReadingsApi.Models.Reading'.
+2025-08-11 23:54:24.009 +01:00 [INF] Executed action HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2) in 3885.8431ms
+2025-08-11 23:54:24.014 +01:00 [INF] Executed endpoint 'HealthReadingsApi.Controllers.ReadingsController.SaveReading (BPAndPulseApi2)'
+2025-08-11 23:54:24.020 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:5194/api/readings/SaveReading - 201 null application/json; charset=utf-8 3917.7104ms
