@@ -3,10 +3,16 @@
   "WorkspaceRootPath": "F:\\BPPulse\\Api\\BPandPulseApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA816E1C-82F1-46BE-86B2-C227DF617BAE}|..\\Tests\\TestControllers\\TestControllers.csproj|f:\\bppulse\\api\\tests\\testcontrollers\\programtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA816E1C-82F1-46BE-86B2-C227DF617BAE}|..\\Tests\\TestControllers\\TestControllers.csproj|f:\\bppulse\\api\\tests\\testcontrollers\\testcontrollers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA816E1C-82F1-46BE-86B2-C227DF617BAE}|..\\Tests\\TestControllers\\TestControllers.csproj|f:\\bppulse\\api\\tests\\testcontrollers\\customwebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA816E1C-82F1-46BE-86B2-C227DF617BAE}|..\\Tests\\TestControllers\\TestControllers.csproj|f:\\bppulse\\api\\tests\\testcontrollers\\readingscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA816E1C-82F1-46BE-86B2-C227DF617BAE}|..\\Tests\\TestControllers\\TestControllers.csproj|f:\\bppulse\\api\\tests\\testcontrollers\\programtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BCA67F6D-9330-4FD4-B8BD-35EDA773637B}|BPandPulseApi.csproj|f:\\bppulse\\api\\bpandpulseapi\\models\\reading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,9 +27,6 @@
       "RelativeMoniker": "D:0:0:{BCA67F6D-9330-4FD4-B8BD-35EDA773637B}|BPandPulseApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA816E1C-82F1-46BE-86B2-C227DF617BAE}|..\\Tests\\TestControllers\\TestControllers.csproj|f:\\bppulse\\api\\tests\\testcontrollers\\customwebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BCA67F6D-9330-4FD4-B8BD-35EDA773637B}|BPandPulseApi.csproj|f:\\bppulse\\api\\bpandpulseapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BCA67F6D-9330-4FD4-B8BD-35EDA773637B}|BPandPulseApi.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -36,9 +39,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BCA67F6D-9330-4FD4-B8BD-35EDA773637B}|BPandPulseApi.csproj|f:\\bppulse\\api\\bpandpulseapi\\bpandpulseapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{BCA67F6D-9330-4FD4-B8BD-35EDA773637B}|BPandPulseApi.csproj|solutionrelative:bpandpulseapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA816E1C-82F1-46BE-86B2-C227DF617BAE}|..\\Tests\\TestControllers\\TestControllers.csproj|f:\\bppulse\\api\\tests\\testcontrollers\\testcontrollers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BCA67F6D-9330-4FD4-B8BD-35EDA773637B}|BPandPulseApi.csproj|f:\\bppulse\\api\\bpandpulseapi\\bpandpulseapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -76,31 +76,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "xunit.runner.json",
-              "DocumentMoniker": "F:\\BPPulse\\Api\\Tests\\TestControllers\\xunit.runner.json",
-              "RelativeDocumentMoniker": "..\\Tests\\TestControllers\\xunit.runner.json",
-              "ToolTip": "F:\\BPPulse\\Api\\Tests\\TestControllers\\xunit.runner.json",
-              "RelativeToolTip": "..\\Tests\\TestControllers\\xunit.runner.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-14T20:44:04.191Z"
             },
             {
               "$type": "Document",
@@ -112,11 +92,25 @@
               "RelativeToolTip": "..\\Tests\\TestControllers\\xunit.runner.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-14T20:43:37.196Z"
+              "WhenOpened": "2025-08-14T20:44:04.191Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
+              "Title": "xunit.runner.json",
+              "DocumentMoniker": "F:\\BPPulse\\Api\\Tests\\TestControllers\\xunit.runner.json",
+              "RelativeDocumentMoniker": "..\\Tests\\TestControllers\\xunit.runner.json",
+              "ToolTip": "F:\\BPPulse\\Api\\Tests\\TestControllers\\xunit.runner.json",
+              "RelativeToolTip": "..\\Tests\\TestControllers\\xunit.runner.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-14T20:43:37.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CustomWebApplicationFactory.cs",
               "DocumentMoniker": "F:\\BPPulse\\Api\\Tests\\TestControllers\\CustomWebApplicationFactory.cs",
               "RelativeDocumentMoniker": "..\\Tests\\TestControllers\\CustomWebApplicationFactory.cs",
@@ -129,15 +123,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "TestControllers.csproj",
               "DocumentMoniker": "F:\\BPPulse\\Api\\Tests\\TestControllers\\TestControllers.csproj",
               "RelativeDocumentMoniker": "..\\Tests\\TestControllers\\TestControllers.csproj",
               "ToolTip": "F:\\BPPulse\\Api\\Tests\\TestControllers\\TestControllers.csproj",
               "RelativeToolTip": "..\\Tests\\TestControllers\\TestControllers.csproj",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-14T19:13:42.271Z"
+              "WhenOpened": "2025-08-14T19:13:42.271Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -149,30 +144,31 @@
               "RelativeToolTip": "BPandPulseApi.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-08-14T19:11:01.769Z"
+              "WhenOpened": "2025-08-14T19:11:01.769Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ReadingsControllerTests.cs",
               "DocumentMoniker": "F:\\BPPulse\\Api\\Tests\\TestControllers\\ReadingsControllerTests.cs",
               "RelativeDocumentMoniker": "..\\Tests\\TestControllers\\ReadingsControllerTests.cs",
               "ToolTip": "F:\\BPPulse\\Api\\Tests\\TestControllers\\ReadingsControllerTests.cs",
               "RelativeToolTip": "..\\Tests\\TestControllers\\ReadingsControllerTests.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-14T18:40:39.007Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ProgramTests.cs",
               "DocumentMoniker": "F:\\BPPulse\\Api\\Tests\\TestControllers\\ProgramTests.cs",
               "RelativeDocumentMoniker": "..\\Tests\\TestControllers\\ProgramTests.cs",
               "ToolTip": "F:\\BPPulse\\Api\\Tests\\TestControllers\\ProgramTests.cs",
               "RelativeToolTip": "..\\Tests\\TestControllers\\ProgramTests.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-14T18:40:33.409Z",
               "EditorCaption": ""
@@ -187,7 +183,8 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-14T18:22:28.999Z"
+              "WhenOpened": "2025-08-14T18:22:28.999Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -199,7 +196,8 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-14T18:09:33.114Z"
+              "WhenOpened": "2025-08-14T18:09:33.114Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -211,7 +209,8 @@
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-14T18:09:07.845Z"
+              "WhenOpened": "2025-08-14T18:09:07.845Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -221,13 +220,14 @@
               "RelativeDocumentMoniker": "Data\\ReadingsContextFactory.cs",
               "ToolTip": "F:\\BPPulse\\Api\\BPandPulseApi\\Data\\ReadingsContextFactory.cs",
               "RelativeToolTip": "Data\\ReadingsContextFactory.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAABBwBIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T18:04:18.307Z"
+              "WhenOpened": "2025-08-14T18:04:18.307Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Reading.cs",
               "DocumentMoniker": "F:\\BPPulse\\Api\\BPandPulseApi\\Models\\Reading.cs",
               "RelativeDocumentMoniker": "Models\\Reading.cs",
@@ -248,7 +248,8 @@
               "RelativeToolTip": "Data\\ReadingsContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T18:02:12.232Z"
+              "WhenOpened": "2025-08-14T18:02:12.232Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -260,24 +261,25 @@
               "RelativeToolTip": "Models\\CreateReadingDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-14T18:00:41.549Z"
+              "WhenOpened": "2025-08-14T18:00:41.549Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ReadingsController.cs",
               "DocumentMoniker": "F:\\BPPulse\\Api\\BPandPulseApi\\Controllers\\ReadingsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ReadingsController.cs",
               "ToolTip": "F:\\BPPulse\\Api\\BPandPulseApi\\Controllers\\ReadingsController.cs",
               "RelativeToolTip": "Controllers\\ReadingsController.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAE0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAABBwE0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-14T17:58:57.309Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "BPandPulseApi.csproj",
               "DocumentMoniker": "F:\\BPPulse\\Api\\BPandPulseApi\\BPandPulseApi.csproj",
               "RelativeDocumentMoniker": "BPandPulseApi.csproj",
@@ -285,11 +287,12 @@
               "RelativeToolTip": "BPandPulseApi.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-08-14T17:56:35.18Z"
+              "WhenOpened": "2025-08-14T17:56:35.18Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Startup.cs",
               "DocumentMoniker": "F:\\BPPulse\\Api\\BPandPulseApi\\Startup.cs",
               "RelativeDocumentMoniker": "Startup.cs",
@@ -302,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\BPPulse\\Api\\BPandPulseApi\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -312,6 +315,14 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-14T17:53:57.033Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

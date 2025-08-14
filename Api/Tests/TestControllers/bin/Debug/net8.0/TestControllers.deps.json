@@ -2065,8 +2065,7 @@
           "Microsoft.NET.Test.Sdk": "17.14.1",
           "Serilog.AspNetCore": "9.0.0",
           "Serilog.Sinks.File": "7.0.0",
-          "Swashbuckle.AspNetCore": "6.4.0",
-          "xunit": "2.9.3"
+          "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
           "BPandPulseApi.dll": {

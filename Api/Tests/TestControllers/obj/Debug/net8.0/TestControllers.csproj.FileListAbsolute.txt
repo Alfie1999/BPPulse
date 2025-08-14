@@ -5,7 +5,6 @@ F:\BPPulse\Api\Tests\TestControllers\bin\Debug\net8.0\BPandPulseApi.deps.json
 F:\BPPulse\Api\Tests\TestControllers\bin\Debug\net8.0\BPandPulseApi.runtimeconfig.json
 F:\BPPulse\Api\Tests\TestControllers\bin\Debug\net8.0\appsettings.Development.json
 F:\BPPulse\Api\Tests\TestControllers\bin\Debug\net8.0\appsettings.json
-F:\BPPulse\Api\Tests\TestControllers\bin\Debug\net8.0\xunit.runner.visualstudio.testadapter.dll
 F:\BPPulse\Api\Tests\TestControllers\bin\Debug\net8.0\BPandPulseApi.exe
 F:\BPPulse\Api\Tests\TestControllers\bin\Debug\net8.0\testhost.exe
 F:\BPPulse\Api\Tests\TestControllers\bin\Debug\net8.0\MvcTestingAppManifest.json

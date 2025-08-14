@@ -4,3 +4,9 @@
 
 /Api/BPandPulseApi/.vs/BPandPulseApi/FileContentIndex/f23d2a52-88bc-48c8-b7ce-72cc281cad13.vsidx
 /Api/BPandPulseApi/.vs/BPandPulseApi/FileContentIndex/d61d9a90-cabb-40b8-af02-21da204fb6df.vsidx
+* text=auto
+*.cs text
+*.csproj text
+*.sln text
+*.dart text
+.vs/

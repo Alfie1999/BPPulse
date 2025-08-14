@@ -1,9 +1,7 @@
 F:\BPPulse\Api\BPandPulseApi\bin\Debug\net8.0\testhost.dll
-F:\BPPulse\Api\BPandPulseApi\bin\Debug\net8.0\xunit.abstractions.dll
 F:\BPPulse\Api\BPandPulseApi\bin\Debug\net8.0\testhost.exe
 F:\BPPulse\Api\BPandPulseApi\bin\Debug\net8.0\appsettings.Development.json
 F:\BPPulse\Api\BPandPulseApi\bin\Debug\net8.0\appsettings.json
-F:\BPPulse\Api\BPandPulseApi\bin\Debug\net8.0\xunit.runner.visualstudio.testadapter.dll
 F:\BPPulse\Api\BPandPulseApi\bin\Debug\net8.0\BPandPulseApi.exe
 F:\BPPulse\Api\BPandPulseApi\bin\Debug\net8.0\BPandPulseApi.deps.json
 F:\BPPulse\Api\BPandPulseApi\bin\Debug\net8.0\BPandPulseApi.runtimeconfig.json
@@ -99,9 +97,6 @@ F:\BPPulse\Api\BPandPulseApi\bin\Debug\net8.0\System.Security.Permissions.dll
 F:\BPPulse\Api\BPandPulseApi\bin\Debug\net8.0\System.Text.Encodings.Web.dll
 F:\BPPulse\Api\BPandPulseApi\bin\Debug\net8.0\System.Text.Json.dll
 F:\BPPulse\Api\BPandPulseApi\bin\Debug\net8.0\System.Windows.Extensions.dll
-F:\BPPulse\Api\BPandPulseApi\bin\Debug\net8.0\xunit.assert.dll
-F:\BPPulse\Api\BPandPulseApi\bin\Debug\net8.0\xunit.core.dll
-F:\BPPulse\Api\BPandPulseApi\bin\Debug\net8.0\xunit.execution.dotnet.dll
 F:\BPPulse\Api\BPandPulseApi\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 F:\BPPulse\Api\BPandPulseApi\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
 F:\BPPulse\Api\BPandPulseApi\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll

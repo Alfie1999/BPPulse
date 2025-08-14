@@ -19,7 +19,7 @@ public class ReadingsControllerTests : IClassFixture<CustomWebApplicationFactory
     {
 
         // Arrange — seed in-memory database
-        using var scope = _factory.Services.CreateScope();
+        using var scope = _factory.Services.CreateScope();   
         var db = scope.ServiceProvider.GetRequiredService<ReadingsContext>();
 
         // Clear the database

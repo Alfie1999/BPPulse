@@ -7,7 +7,7 @@ using Microsoft.Extensions.Logging;
 
 namespace BPandPulseApi.Tests
 {
-    public class ReadingsControllerTests
+    public class ReadingsControllerTests 
     {
         private ReadingsContext GetInMemoryContext()
         {
