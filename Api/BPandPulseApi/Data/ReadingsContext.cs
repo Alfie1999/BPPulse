@@ -1,7 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using HealthReadingsApi.Models;
+using BPandPulseApi.Models;
+using System.Collections.Generic;
 
-namespace HealthReadingsApi.Data
+namespace BPandPulseApi.Data
 {
     public class ReadingsContext : DbContext
     {
@@ -12,3 +13,4 @@ namespace HealthReadingsApi.Data
         public DbSet<Reading> Readings { get; set; }
     }
 }
+

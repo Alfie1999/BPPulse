@@ -1,0 +1,8 @@
+2025-08-14 15:14:08.521 +01:00 [INF] Starting web host
+2025-08-14 15:14:09.017 +01:00 [INF] Starting web host
+2025-08-14 16:02:02.813 +01:00 [INF] Starting web host
+2025-08-14 16:02:03.152 +01:00 [INF] Starting web host
+2025-08-14 16:08:11.289 +01:00 [INF] Starting web host
+2025-08-14 16:08:11.628 +01:00 [INF] Starting web host
+2025-08-14 16:12:40.729 +01:00 [INF] Starting web host
+2025-08-14 16:12:41.201 +01:00 [INF] Starting web host

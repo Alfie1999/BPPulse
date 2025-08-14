@@ -1,4 +1,4 @@
-@BPandPulseApi_HostAddress = http://localhost:5088
+@BPandPulseApi_HostAddress = http://localhost:5294
 
 GET {{BPandPulseApi_HostAddress}}/weatherforecast/
 Accept: application/json

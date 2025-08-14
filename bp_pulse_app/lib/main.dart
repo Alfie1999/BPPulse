@@ -1,13 +1,24 @@
-// Import the Flutter Material package, which provides UI widgets and tools
 import 'package:flutter/material.dart';
-
-// Import your main app widget from the app.dart file
-// Adjust the path based on where your app.dart is located in your project
-import 'src/source/app.dart';
+import 'src/source/bp_pulse_chart.dart'; // Import your chart widget
 
 void main() {
-  // The main() function is the entry point of every Dart app.
-  // runApp() tells Flutter to start your app and inflate the given widget,
-  // here it's BPPulseApp(), which is your main app widget.
-  runApp(BPPulseApp());
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'BP & Pulse Chart',
+      home: Scaffold(
+        appBar: AppBar(title: const Text('Blood Pressure & Pulse Chart')),
+        body: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: BloodPressureChart(), // Use the widget here
+        ),
+      ),
+    );
+  }
 }

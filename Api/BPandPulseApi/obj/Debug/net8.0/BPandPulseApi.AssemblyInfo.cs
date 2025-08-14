@@ -11,11 +11,10 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("d5f5ffed-c69f-4157-b47d-353148162cf4")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("BPandPulseApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82df7f3480abd2c817a3e2862007f34e40213351")]
 [assembly: System.Reflection.AssemblyProductAttribute("BPandPulseApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BPandPulseApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

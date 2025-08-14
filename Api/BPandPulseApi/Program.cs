@@ -1,35 +1,49 @@
-using HealthReadingsApi.Data;
-using Microsoft.EntityFrameworkCore;
+using BPandPulseApi;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
+using Serilog;
+using System;
+using System.Linq;
 
-var builder = WebApplication.CreateBuilder(args);
-
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-builder.Services.AddCors(options =>
+namespace BPandPulseApi
 {
-    options.AddPolicy("AllowFlutter", policy =>
+    public class Program
     {
-        policy.AllowAnyOrigin()
-              .AllowAnyMethod()
-              .AllowAnyHeader();
-    });
-});
+        public static void Main(string[] args)
+        {
+            Log.Logger = new LoggerConfiguration()
+                .WriteTo.Console()
+                .WriteTo.File("logs/log-.txt", rollingInterval: RollingInterval.Day)
+                .CreateLogger();
 
-// Add EF Core SQLite
-builder.Services.AddDbContext<ReadingsContext>(options =>
-    options.UseSqlite("Data Source=readings.db"));
+            try
+            {
+                Log.Information("Starting web host");
 
-var app = builder.Build();
+                // Prevent running during tests
+                if (!AppDomain.CurrentDomain.GetAssemblies()
+                        .Any(a => a.FullName.StartsWith("xunit")))
+                {
+                    CreateHostBuilder(args).Build().Run();
+                }
+            }
+            catch (Exception ex)
+            {
+                Log.Fatal(ex, "Host terminated unexpectedly");
+            }
+            finally
+            {
+                Log.CloseAndFlush();
+            }
+        }
 
-app.UseSwagger();
-app.UseSwaggerUI();
 
-app.UseCors("AllowFlutter");
-
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.Run();
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .UseSerilog()
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                });
+    }
+}

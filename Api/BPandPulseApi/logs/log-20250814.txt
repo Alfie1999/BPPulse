@@ -1,0 +1,161 @@
+2025-08-14 19:37:56.228 +01:00 [INF] Starting web host
+2025-08-14 19:38:00.894 +01:00 [INF] Now listening on: https://localhost:7115
+2025-08-14 19:38:00.901 +01:00 [INF] Now listening on: http://localhost:5294
+2025-08-14 19:38:01.039 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-14 19:38:01.041 +01:00 [INF] Hosting environment: Development
+2025-08-14 19:38:01.043 +01:00 [INF] Content root path: F:\BPPulse\Api\BPandPulseApi
+2025-08-14 19:38:06.180 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/swagger - null null
+2025-08-14 19:38:06.419 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/swagger - 301 0 null 240.3205ms
+2025-08-14 19:38:06.425 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/swagger/index.html - null null
+2025-08-14 19:38:06.538 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/swagger/index.html - 200 null text/html;charset=utf-8 113.143ms
+2025-08-14 19:38:06.564 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/swagger/swagger-ui.css - null null
+2025-08-14 19:38:06.564 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/swagger/swagger-ui-standalone-preset.js - null null
+2025-08-14 19:38:06.565 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-14 19:38:06.564 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/swagger/swagger-ui-bundle.js - null null
+2025-08-14 19:38:06.565 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/_vs/browserLink - null null
+2025-08-14 19:38:06.618 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 53.2899ms
+2025-08-14 19:38:06.684 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-08-14 19:38:06.695 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-08-14 19:38:06.700 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/swagger/swagger-ui.css - 200 143943 text/css 136.789ms
+2025-08-14 19:38:06.714 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 150.413ms
+2025-08-14 19:38:06.741 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-08-14 19:38:06.746 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 181.9078ms
+2025-08-14 19:38:06.779 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/_vs/browserLink - 200 null text/javascript; charset=UTF-8 214.2893ms
+2025-08-14 19:38:07.258 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/swagger/v1/swagger.json - null null
+2025-08-14 19:38:07.345 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/swagger/favicon-32x32.png - null null
+2025-08-14 19:38:07.474 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-08-14 19:38:07.482 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/swagger/favicon-32x32.png - 200 628 image/png 136.1336ms
+2025-08-14 19:38:07.573 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 315.2471ms
+2025-08-14 20:29:26.742 +01:00 [INF] Starting web host
+2025-08-14 20:29:29.430 +01:00 [INF] Now listening on: https://localhost:7115
+2025-08-14 20:29:29.439 +01:00 [INF] Now listening on: http://localhost:5294
+2025-08-14 20:29:29.731 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-14 20:29:29.773 +01:00 [INF] Hosting environment: Development
+2025-08-14 20:29:29.776 +01:00 [INF] Content root path: F:\BPPulse\Api\BPandPulseApi
+2025-08-14 20:29:33.072 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/swagger/index.html - null null
+2025-08-14 20:29:33.717 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/swagger/index.html - 200 null text/html;charset=utf-8 651.947ms
+2025-08-14 20:29:33.758 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-14 20:29:33.762 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/_vs/browserLink - null null
+2025-08-14 20:29:33.827 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 66.4146ms
+2025-08-14 20:29:33.997 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/_vs/browserLink - 200 null text/javascript; charset=UTF-8 234.9055ms
+2025-08-14 20:29:34.380 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/swagger/v1/swagger.json - null null
+2025-08-14 20:29:34.844 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 465.6084ms
+2025-08-14 20:30:08.005 +01:00 [INF] Starting web host
+2025-08-14 20:30:11.014 +01:00 [INF] Now listening on: https://localhost:7115
+2025-08-14 20:30:11.023 +01:00 [INF] Now listening on: http://localhost:5294
+2025-08-14 20:30:11.435 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-14 20:30:11.447 +01:00 [INF] Hosting environment: Development
+2025-08-14 20:30:11.450 +01:00 [INF] Content root path: F:\BPPulse\Api\BPandPulseApi
+2025-08-14 20:30:15.463 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/swagger/index.html - null null
+2025-08-14 20:30:16.264 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/swagger/index.html - 200 null text/html;charset=utf-8 807.6811ms
+2025-08-14 20:30:16.421 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/_vs/browserLink - null null
+2025-08-14 20:30:16.421 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-14 20:30:16.495 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 73.2943ms
+2025-08-14 20:30:16.928 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/_vs/browserLink - 200 null text/javascript; charset=UTF-8 504.4735ms
+2025-08-14 20:30:17.042 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/swagger/v1/swagger.json - null null
+2025-08-14 20:30:17.473 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 431.8649ms
+2025-08-14 20:33:23.724 +01:00 [INF] Starting web host
+2025-08-14 20:33:27.357 +01:00 [INF] Now listening on: https://localhost:7115
+2025-08-14 20:33:27.368 +01:00 [INF] Now listening on: http://localhost:5294
+2025-08-14 20:33:27.691 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-14 20:33:27.706 +01:00 [INF] Hosting environment: Development
+2025-08-14 20:33:27.709 +01:00 [INF] Content root path: F:\BPPulse\Api\BPandPulseApi
+2025-08-14 20:33:31.698 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/swagger/index.html - null null
+2025-08-14 20:33:32.564 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/swagger/index.html - 200 null text/html;charset=utf-8 869.63ms
+2025-08-14 20:33:32.662 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/_vs/browserLink - null null
+2025-08-14 20:33:32.830 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-14 20:33:32.993 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 162.4455ms
+2025-08-14 20:33:33.163 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/_vs/browserLink - 200 null text/javascript; charset=UTF-8 501.6809ms
+2025-08-14 20:33:33.350 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/swagger/v1/swagger.json - null null
+2025-08-14 20:33:33.760 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 410.2178ms
+2025-08-14 20:37:15.999 +01:00 [INF] Starting web host
+2025-08-14 20:37:19.015 +01:00 [INF] Now listening on: https://localhost:7115
+2025-08-14 20:37:19.024 +01:00 [INF] Now listening on: http://localhost:5294
+2025-08-14 20:37:19.322 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-14 20:37:19.327 +01:00 [INF] Hosting environment: Development
+2025-08-14 20:37:19.331 +01:00 [INF] Content root path: F:\BPPulse\Api\BPandPulseApi
+2025-08-14 20:37:23.231 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/swagger/index.html - null null
+2025-08-14 20:37:24.044 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-14 20:37:24.046 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/_vs/browserLink - null null
+2025-08-14 20:37:24.048 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/swagger/index.html - 200 null text/html;charset=utf-8 824.7267ms
+2025-08-14 20:37:24.133 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 88.5286ms
+2025-08-14 20:37:24.330 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/_vs/browserLink - 200 null text/javascript; charset=UTF-8 283.9949ms
+2025-08-14 20:37:24.450 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/swagger/v1/swagger.json - null null
+2025-08-14 20:37:24.798 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 348.729ms
+2025-08-14 20:39:07.996 +01:00 [INF] Starting web host
+2025-08-14 20:39:10.677 +01:00 [INF] Now listening on: https://localhost:7115
+2025-08-14 20:39:10.689 +01:00 [INF] Now listening on: http://localhost:5294
+2025-08-14 20:39:11.025 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-14 20:39:11.028 +01:00 [INF] Hosting environment: Development
+2025-08-14 20:39:11.031 +01:00 [INF] Content root path: F:\BPPulse\Api\BPandPulseApi
+2025-08-14 20:39:13.981 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/swagger/index.html - null null
+2025-08-14 20:39:14.591 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/swagger/index.html - 200 null text/html;charset=utf-8 612.5695ms
+2025-08-14 20:39:14.655 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/_vs/browserLink - null null
+2025-08-14 20:39:14.657 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-14 20:39:14.719 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 61.739ms
+2025-08-14 20:39:14.798 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/_vs/browserLink - 200 null text/javascript; charset=UTF-8 143.3782ms
+2025-08-14 20:39:14.891 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/swagger/v1/swagger.json - null null
+2025-08-14 20:39:15.112 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 221.3704ms
+2025-08-14 20:44:07.216 +01:00 [INF] Starting web host
+2025-08-14 20:44:10.810 +01:00 [INF] Now listening on: https://localhost:7115
+2025-08-14 20:44:10.819 +01:00 [INF] Now listening on: http://localhost:5294
+2025-08-14 20:44:11.210 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-14 20:44:11.214 +01:00 [INF] Hosting environment: Development
+2025-08-14 20:44:11.216 +01:00 [INF] Content root path: F:\BPPulse\Api\BPandPulseApi
+2025-08-14 20:44:14.309 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/swagger/index.html - null null
+2025-08-14 20:44:15.104 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-14 20:44:15.106 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/swagger/index.html - 200 null text/html;charset=utf-8 803.776ms
+2025-08-14 20:44:15.116 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/_vs/browserLink - null null
+2025-08-14 20:44:15.148 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 43.5037ms
+2025-08-14 20:44:15.325 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/_vs/browserLink - 200 null text/javascript; charset=UTF-8 209.0067ms
+2025-08-14 20:44:15.422 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/swagger/v1/swagger.json - null null
+2025-08-14 20:44:15.706 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 283.697ms
+2025-08-14 20:55:12.859 +01:00 [INF] Starting web host
+2025-08-14 20:55:19.263 +01:00 [INF] Now listening on: https://localhost:7115
+2025-08-14 20:55:19.396 +01:00 [INF] Now listening on: http://localhost:5294
+2025-08-14 20:55:20.297 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-14 20:55:20.408 +01:00 [INF] Hosting environment: Development
+2025-08-14 20:55:20.468 +01:00 [INF] Content root path: F:\BPPulse\Api\BPandPulseApi
+2025-08-14 20:55:27.378 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/swagger/index.html - null null
+2025-08-14 21:26:54.988 +01:00 [INF] Starting web host
+2025-08-14 21:26:58.564 +01:00 [INF] Now listening on: https://localhost:7115
+2025-08-14 21:26:58.574 +01:00 [INF] Now listening on: http://localhost:5294
+2025-08-14 21:26:58.893 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-14 21:26:58.898 +01:00 [INF] Hosting environment: Development
+2025-08-14 21:26:58.908 +01:00 [INF] Content root path: F:\BPPulse\Api\BPandPulseApi
+2025-08-14 21:27:02.444 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/swagger/index.html - null null
+2025-08-14 21:27:03.398 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/swagger/index.html - 200 null text/html;charset=utf-8 957.96ms
+2025-08-14 21:27:03.525 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/_vs/browserLink - null null
+2025-08-14 21:27:03.525 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-14 21:27:03.610 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 84.658ms
+2025-08-14 21:27:03.744 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/_vs/browserLink - 200 null text/javascript; charset=UTF-8 218.7995ms
+2025-08-14 21:27:03.893 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/swagger/v1/swagger.json - null null
+2025-08-14 21:27:04.228 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 335.6829ms
+2025-08-14 21:45:21.558 +01:00 [INF] Starting web host
+2025-08-14 21:45:29.649 +01:00 [INF] Now listening on: https://localhost:7115
+2025-08-14 21:45:29.660 +01:00 [INF] Now listening on: http://localhost:5294
+2025-08-14 21:45:30.077 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-14 21:45:30.083 +01:00 [INF] Hosting environment: Development
+2025-08-14 21:45:30.087 +01:00 [INF] Content root path: F:\BPPulse\Api\BPandPulseApi
+2025-08-14 21:45:36.275 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/swagger/index.html - null null
+2025-08-14 21:45:37.068 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/swagger/index.html - 200 null text/html;charset=utf-8 805.6126ms
+2025-08-14 21:45:37.275 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/_vs/browserLink - null null
+2025-08-14 21:45:37.275 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-14 21:45:37.330 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 50.0187ms
+2025-08-14 21:45:37.485 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/_vs/browserLink - 200 null text/javascript; charset=UTF-8 210.239ms
+2025-08-14 21:45:37.612 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/swagger/v1/swagger.json - null null
+2025-08-14 21:45:38.183 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 570.5969ms
+2025-08-14 22:27:27.446 +01:00 [INF] Starting web host
+2025-08-14 22:27:35.015 +01:00 [INF] Now listening on: https://localhost:7115
+2025-08-14 22:27:35.096 +01:00 [INF] Now listening on: http://localhost:5294
+2025-08-14 22:27:35.539 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-14 22:27:35.543 +01:00 [INF] Hosting environment: Development
+2025-08-14 22:27:35.547 +01:00 [INF] Content root path: F:\BPPulse\Api\BPandPulseApi
+2025-08-14 22:27:40.127 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/swagger/index.html - null null
+2025-08-14 22:27:41.266 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/swagger/index.html - 200 null text/html;charset=utf-8 1144.6323ms
+2025-08-14 22:27:41.425 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-14 22:27:41.425 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/_vs/browserLink - null null
+2025-08-14 22:27:41.565 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/_framework/aspnetcore-browser-refresh.js - 200 13762 application/javascript; charset=utf-8 139.335ms
+2025-08-14 22:27:41.761 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/_vs/browserLink - 200 null text/javascript; charset=UTF-8 335.9402ms
+2025-08-14 22:27:41.964 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7115/swagger/v1/swagger.json - null null
+2025-08-14 22:27:42.492 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7115/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 527.5592ms

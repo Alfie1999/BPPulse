@@ -1,0 +1,22 @@
+2025-08-13 21:52:23.027 +01:00 [INF] Starting web host
+2025-08-13 21:52:35.361 +01:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[Diastolic], [r].[Pulse], [r].[Systolic]
+FROM [Readings] AS [r]
+2025-08-13 22:05:36.692 +01:00 [INF] Starting web host
+2025-08-13 22:05:47.484 +01:00 [INF] Starting web host
+2025-08-13 22:07:50.146 +01:00 [INF] Starting web host
+2025-08-13 22:08:40.830 +01:00 [INF] Starting web host
+2025-08-13 22:09:45.267 +01:00 [INF] Starting web host
+2025-08-13 22:09:52.115 +01:00 [INF] Starting web host
+2025-08-13 22:10:16.091 +01:00 [INF] Starting web host
+2025-08-13 22:10:23.327 +01:00 [INF] Starting web host
+2025-08-13 22:11:11.643 +01:00 [INF] Starting web host
+2025-08-13 22:11:31.956 +01:00 [INF] Starting web host
+2025-08-13 22:32:07.973 +01:00 [INF] Starting web host
+2025-08-13 22:32:09.386 +01:00 [INF] Starting web host
+2025-08-13 22:40:22.744 +01:00 [INF] Starting web host
+2025-08-13 22:45:13.531 +01:00 [INF] Starting web host
+2025-08-13 22:51:10.308 +01:00 [INF] Starting web host
+2025-08-13 22:51:11.146 +01:00 [INF] Starting web host
+2025-08-13 22:52:22.240 +01:00 [INF] Starting web host
+2025-08-13 22:52:23.421 +01:00 [INF] Starting web host
