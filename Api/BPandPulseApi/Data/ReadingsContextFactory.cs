@@ -1,6 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using BPandPulseApi.Models;
-using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore.Design;
 
 namespace BPandPulseApi.Data

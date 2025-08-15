@@ -29,6 +29,12 @@ namespace BPandPulseApi.Controllers
                 return BadRequest(ModelState);
             }
 
+            // Custom validation: no negative values allowed
+            if (dto.Systolic < 0 || dto.Diastolic < 0 || dto.Pulse < 0)
+            {
+                return BadRequest("Systolic, Diastolic, and Pulse values must be non-negative.");
+            }
+
             try
             {
                 var reading = new Reading
